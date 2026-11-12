@@ -16,7 +16,7 @@ return [
         'commit_sha' => env('OPENKOS_BUILD_COMMIT_SHA'),
     ],
 
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE', 'Africa/Addis_Ababa'),
 
     'locale' => env('APP_LOCALE', 'en'),
 
