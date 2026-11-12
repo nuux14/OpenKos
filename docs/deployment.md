@@ -1,7 +1,7 @@
 # Production Deployment
 
 OpenKOS production uses the immutable FrankenPHP image published at
-`ghcr.io/senatroxx/openkos`.
+`ghcr.io/nuux14/openkos`.
 
 The production Compose reference contains only the application roles:
 
@@ -68,7 +68,7 @@ remove route caching from the runtime optimization step before deployment.
 To deploy a specific immutable image:
 
 ```bash
-OPENKOS_IMAGE=ghcr.io/senatroxx/openkos:1.2.3 \
+OPENKOS_IMAGE=ghcr.io/nuux14/openkos:1.2.3 \
 docker compose -f compose.production.yaml up -d
 ```
 
