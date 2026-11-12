@@ -7,12 +7,14 @@ on:
       - main
       - master
       - workos
+      - mariacloud/property-management
   pull_request:
     branches:
       - develop
       - main
       - master
       - workos
+      - mariacloud/property-management
 
 permissions:
   contents: write
