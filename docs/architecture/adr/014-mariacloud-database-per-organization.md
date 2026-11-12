@@ -22,7 +22,7 @@ For the MariaCloud hosted edition, use a **shared application deployment with a 
 
 The tenant database retains OpenKOS's single-business domain model. Multiple properties, units, leases and renters remain supported within that organization database.
 
-Use spatie/laravel-multitenancy v4 as the initial tenancy orchestration candidate. It supports Laravel 12/13 and PHP 8.3+, database-per-tenant switching, tenant-aware queues and tenant lifecycle commands. The exact package release must be locked by Composer and verified in CI before merge.
+Use spatie/laravel-multitenancy v4 as the initial tenancy orchestration candidate. The current compatible release checked on 2026-11-12 is 4.3.1; its package metadata requires PHP ^8.3 and Illuminate ^12.0|^13.0. It provides database-per-tenant switching, tenant-aware queues and tenant lifecycle commands. Add the dependency with Composer, commit the generated lockfile, and verify it in CI before merge.
 
 ### Control plane
 
