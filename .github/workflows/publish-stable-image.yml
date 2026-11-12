@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/senatroxx/openkos
+          images: ghcr.io/nuux14/openkos
           tags: |
             type=semver,pattern={{version}},value=${{ github.ref_name }}
             type=semver,pattern={{major}}.{{minor}},value=${{ github.ref_name }}
