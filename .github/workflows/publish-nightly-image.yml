@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/senatroxx/openkos
+          images: ghcr.io/nuux14/openkos
           tags: |
             type=raw,value=nightly
             type=raw,value=nightly-${{ steps.date.outputs.value }}-${{ github.sha }}
