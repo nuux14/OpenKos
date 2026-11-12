@@ -9,13 +9,13 @@ class SettingSeeder extends Seeder
 {
     public function run(): void
     {
-        Setting::set('site_name', 'OpenKOS');
-        Setting::set('country_code', 'ID');
-        Setting::set('locale', 'id');
-        Setting::set('currency', 'IDR');
-        Setting::set('supported_currencies', ['IDR', 'USD']);
-        Setting::set('timezone', 'Asia/Jakarta');
-        Setting::set('lease_id_prefix', 'LSX');
-        Setting::set('invoice_id_prefix', 'INV');
+        Setting::set('site_name', 'MariaCloud Property Management');
+        Setting::set('country_code', 'ET');
+        Setting::set('locale', 'en');
+        Setting::set('currency', 'ETB');
+        Setting::set('supported_currencies', ['ETB', 'USD']);
+        Setting::set('timezone', 'Africa/Addis_Ababa');
+        Setting::set('lease_id_prefix', 'MCL');
+        Setting::set('invoice_id_prefix', 'MCI');
     }
 }
